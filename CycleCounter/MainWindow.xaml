@@ -15,8 +15,8 @@
         <TextBlock HorizontalAlignment="Left" Margin="19,45,0,0" TextWrapping="Wrap" Text="1. Decide wether to input:" VerticalAlignment="Top" Width="172"/>
         <RadioButton Content="Cycles:" HorizontalAlignment="Left" Margin="19,66,0,0" VerticalAlignment="Top"/>
         <RadioButton Content="or time and cycle rate:" HorizontalAlignment="Left" Margin="19,87,0,0" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="34,108,0,0" TextWrapping="Wrap" Text="Time/sec:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="34,129,0,0" TextWrapping="Wrap" Text="Cycle rate:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,110,0,0" TextWrapping="Wrap" Text="Time/sec:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,136,0,0" TextWrapping="Wrap" Text="Cycle rate:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="19,161,0,0" TextWrapping="Wrap" Text="2. Click on GO-Button:" VerticalAlignment="Top"/>
         <Button Content="GO" HorizontalAlignment="Left" Margin="34,182,0,0" VerticalAlignment="Top" Width="75"/>
         <TextBlock HorizontalAlignment="Left" Margin="19,225,0,0" TextWrapping="Wrap" Text="3. Save the source code:" VerticalAlignment="Top"/>
@@ -24,7 +24,40 @@
         <TextBlock HorizontalAlignment="Left" Margin="31,283,0,0" TextWrapping="Wrap" Text="or copy for Copy/Paste:" VerticalAlignment="Top"/>
         <Button Content="☻" HorizontalAlignment="Left" Margin="34,304,0,0" VerticalAlignment="Top" Width="25"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Stroke="Black" VerticalAlignment="Top" Width="671" Margin="-2,0,0,0"/>
-        <Button Content="♫" HorizontalAlignment="Left" Margin="3,5,0,0" VerticalAlignment="Top" Width="25"/>
+        <Button Content="EN" HorizontalAlignment="Left" Margin="3,5,0,0" VerticalAlignment="Top" Width="25"/>
+        <Button Content="CZ" HorizontalAlignment="Left" Margin="34,5,0,0" VerticalAlignment="Top" Width="25"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="93,63,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="79"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="93,110,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="79"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="93,136,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="79"/>
+        <ComboBox HorizontalAlignment="Left" Margin="198,5,0,0" VerticalAlignment="Top" Width="56" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="R1"/>
+            <ComboBoxItem Content="R2"/>
+            <ComboBoxItem Content="R3"/>
+            <ComboBoxItem Content="R4"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="259,5,0,0" VerticalAlignment="Top" Width="56" SelectionChanged="ComboBox_SelectionChanged" RenderTransformOrigin="0.5,0.5" Height="22">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.344"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+            <ComboBoxItem Content="R1"/>
+            <ComboBoxItem Content="R2"/>
+            <ComboBoxItem Content="R3"/>
+            <ComboBoxItem Content="R4"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="319,5,0,0" VerticalAlignment="Top" Width="56" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="R1"/>
+            <ComboBoxItem Content="R2"/>
+            <ComboBoxItem Content="R3"/>
+            <ComboBoxItem Content="R4"/>
+        </ComboBox>
+        <TextBox HorizontalAlignment="Left" Height="388" Margin="178,32,0,0" TextWrapping="Wrap" Text="Výstup" VerticalAlignment="Top" Width="491"/>
+
+
 
     </Grid>
 </Window>
