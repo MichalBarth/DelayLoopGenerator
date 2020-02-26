@@ -15,7 +15,7 @@
         <!-- 1. Decide wether to input: -->
         <TextBlock HorizontalAlignment="Left" Margin="19,45,0,0" TextWrapping="Wrap" Text="{Binding Input}" VerticalAlignment="Top" Width="172"/>
         <!-- Cycles: -->
-        <RadioButton Content="{Binding Cycles}" HorizontalAlignment="Left" Margin="19,66,0,0" VerticalAlignment="Top"/>
+        <RadioButton IsEnabled="True" Content="{Binding Cycles}" HorizontalAlignment="Left" Margin="19,66,0,0" VerticalAlignment="Top"/>
         <!-- time/cycle rate: -->
         <RadioButton Content="{Binding TimeCycleRate}" HorizontalAlignment="Left" Margin="19,87,0,0" VerticalAlignment="Top"/>
         <!-- time/sec: -->
